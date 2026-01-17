@@ -28,6 +28,6 @@ latest_posts:
 ---
 I am currently a research master's student in AI and ML at Department of Computing, Imperial College London. I am working on unsupervised anomaly detection in Cardiac MRI under supervision of Dr. [Giacomo Tarroni](https://scholar.google.com/citations?user=6nlDNyoAAAAJ) and Dr. [Chen Qin](https://cq615.github.io/) Previously I obataine my bachelor degree in Data Science and Artificial Intelligence from the Technical University of Madrid in 2025 with my thesis on anomaly detection for Brain MRI under supervision of Dr. [Guillermo Iglesias](https://scholar.google.com/citations?user=om5L0VoAAAAJ). I worked as a research assistant at the ['Ontology Engineering Group (OEG)'](https://oeg.fi.upm.es/) under supervision of Dr. [Elvira Amador](https://scholar.google.com/citations?user=b2ixQ24AAAAJ) where I contributed to a project related to information extraction in scientific text.  
 
-I am currently interested in computer vision, natural language processing and multimodal models. I am looking for PhD opportunities in these areas, feel free to contact me.
+I am currently interested in computer vision, natural language processing and multimodal models. I am looking for PhD or RA opportunities in these areas around Europe and UK, feel free to contact me.
 
 PD: This is just a scratch about me page. I will update it soon...
