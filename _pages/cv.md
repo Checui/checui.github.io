@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: cv_research_1page.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: Che_Cui.pdf # you can also use external links here
+description: CV, research experience, and selected projects.
 toc:
   sidebar: left
 ---

@@ -30,4 +30,8 @@ I am currently a research master's student in AI and ML at Department of Computi
 
 I am currently interested in computer vision, natural language processing and multimodal models. I am looking for PhD or RA opportunities in these areas around Europe and UK, feel free to contact me.
 
+<div style="margin: 1.5rem 0; max-width: 300px;">
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=300&t=tt&d=H7MhKa3m4XaE4gpzLEpD4oQ2W7hiqVSqaaLP2ezsv_c&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
+</div>
+
 PD: This is just a scratch about me page. I will update it soon...

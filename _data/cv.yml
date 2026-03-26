@@ -2,96 +2,147 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Che Cui
+    - name: Location
+      value: London, UK
+    - name: Phone
+      value: +34 622 576 094
+    - name: Email
+      value: '<a href="mailto:c.cui25@imperial.ac.uk">c.cui25@imperial.ac.uk</a>'
+    - name: Alternate Email
+      value: '<a href="mailto:cuiche7624@gmail.com">cuiche7624@gmail.com</a>'
+    - name: LinkedIn
+      value: '<a href="https://www.linkedin.com/in/Che-Cui/" target="_blank" rel="noopener noreferrer">Che-Cui</a>'
+    - name: GitHub
+      value: '<a href="https://github.com/Checui" target="_blank" rel="noopener noreferrer">Checui</a>'
+
+- title: Introduction
+  type: list
+  contents:
+    - BSc graduate in Data Science and Artificial Intelligence from the Technical University of Madrid, now pursuing an MRes in AI and Machine Learning at Imperial College London.
+    - Strong foundation in programming, mathematics, and statistics, complemented by hands-on work in both private and public-sector environments.
+    - Research interests lie at the intersection of machine learning, computer vision, and natural language processing.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MRes AI and Machine Learning
+      institution: Imperial College London
+      location: London, UK
+      year: September 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Modules include Generative AI, Research Tutorial, Simulated Research and Development Project Proposal, and Ethics, Fairness, and Explanation in AI.
+        - 'Individual research project: "Unsupervised anomaly detection for cardiac MRI", supervised by Dr. Giacomo Tarroni and co-supervised by Dr. Chen Qin.'
+        - Assessment includes a poster presentation, written thesis, and oral defense.
+    - title: Bachelor of Data Science and Artificial Intelligence
+      institution: Technical University of Madrid (UPM)
+      location: Madrid, ES
+      year: September 2020 - March 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Modules include Deep Learning, NLP, Generative AI, Calculus, Linear Algebra, and Statistics.
+        - 'Bachelor thesis: "Diffusion Model Based Brain Tumor Segmentation Enhanced with Inpainting Method" (grade: 10/10), supervised by Dr. Guillermo Iglesias.'
+        - Degree timeline extended into the 2024-2025 academic year to complete the thesis after the TUM exchange.
+    - title: Exchange Study Programme
+      institution: Technical University of Munich (TUM)
+      location: Munich, GER
+      year: April 2024 - September 2024
+      description:
+        - Modules included Advanced Natural Language Processing and Foundations and Applications of Graph Neural Networks.
+        - Lab project on reinforcement learning and benchmarking for modular robots.
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Ontology Engineering Group, Technical University of Madrid
+      location: Madrid, ES
+      year: March 2025 - September 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Research assistant to Dr. Elvira Amador Dominguez at the Ontology Engineering Group.
+        - 'Project: "GAP-KGE: Automatic Template Generation for Reasoning Models over Knowledge Graphs".'
+    - title: Data Scientist Intern
+      institution: Renta 4 Investment Banking
+      location: Madrid, ES
+      year: October 2023 - January 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Worked in the Digital Innovation department to develop and implement machine learning solutions.
+        - Projects included an investment fund recommender system and automated sentiment analysis and report generation using NLP methods.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Unsupervised Anomaly Detection for Cardiac MRI
+      institution: Imperial College London
+      year: 2025 - 2026
+      description:
+        - Supervised by Dr. Giacomo Tarroni and co-supervised by Dr. Chen Qin.
+        - Reviewing state-of-the-art unsupervised anomaly detection methods, including generative and self-supervised approaches, on public cardiac MRI datasets.
+        - Focused on detecting structural anomalies such as hypertrophic cardiomyopathy and motion abnormalities without labeled pathology.
+        - Evaluation, poster preparation, and final thesis drafting continue through the 2026 submission.
+    - title: GAP-KGE
+      institution: Ontology Engineering Group
+      year: 2025
+      description:
+        - Worked with Dr. Elvira Amador Dominguez on information extraction from scientific papers using ML and LLM-based models.
+        - Built toward automatic template generation for knowledge graph embedding papers.
+        - Completed a literature review and set up the project GitHub repository and pipeline.
+    - title: Diffusion Model Based Brain Tumor Segmentation Enhanced with Inpainting Method
+      institution: BSc thesis
+      year: 2025
+      description:
+        - Worked with U-Net-based diffusion models and applied the RePaint inpainting method to brain tumor segmentation using the BraTS dataset.
+        - Completed a literature review on diffusion-based image generation and inpainting methods.
+        - Set up the project repository and workflow.
+        - Submitted for publication in Computer Methods and Programs in Biomedicine.
 
-- title: Honors and Awards
+- title: Other Relevant Projects
   type: time_table
   contents:
-    - year: 1921
+    - title: CONSENSE
+      institution: Practical Lab Project at TUM
+      year: 2024
+      description:
+        - 'Project full name: "CONSENSE: Optimal Path Planning and Collision Avoidance for Robots using Sensor Fusion".'
+        - Collaborated in a three-person team on hardware and software selection for an industrial robot for concrete removal tasks.
+        - Developed a simulation environment in ROS 2 and Gazebo to model and test robot functionality for a TUM startup project.
+        - Completed a sensor-fusion literature review, validated performance in harsh conditions, and presented the work in a poster session.
+
+- title: Competitions and Awards
+  type: time_table
+  contents:
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - 2nd place in the Nanyang Technological University Singapore and Imperial College Learning Analytics Hackathon at Imperial College London.
+        - Best Thesis with Impact award across bachelor and master theses in the School of Computer Systems Engineering.
+    - year: Earlier
       items:
-        - Max Planck Medal
+        - Winner of multiple mathematics contests from primary school through high school.
 
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C, R, Matlab, SQL
+        - NoSQL technologies including MongoDB, Neo4j, and Cassandra
+    - title: Libraries
       items:
-        - Description 1.
-        - Description 2.
+        - Keras, TensorFlow, PyTorch, NumPy, SciPy, Pandas, Matplotlib
+    - title: Tools and Platforms
+      items:
+        - LaTeX, Spark, Docker, GitHub, AWS
+    - title: Research Areas
+      items:
+        - Machine learning, computer vision, natural language processing
 
-- title: Other Interests
+- title: Languages
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Spanish (native), Chinese (native), English (Cambridge C2 proficiency), French (basic proficiency).
+
+- title: Interests and Service
+  type: list
+  contents:
+    - Active member of the Department of Computing Society, attending industry talks, and regular participant in cross country and athletics.
+    - Served as Degree Vice-Representative for the Data Science and Artificial Intelligence bachelor program at the Technical University of Madrid.
+    - References available on request.
