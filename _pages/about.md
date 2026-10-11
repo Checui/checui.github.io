@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='mailto:c.cui25@imperial.ac.uk'>Email: c.cui25@imperial.ac.uk</a>"
+subtitle: "<a href='mailto:che.cui@enpc.fr'>Email: che.cui@enpc.fr</a>"
 
 profile:
   align: right
