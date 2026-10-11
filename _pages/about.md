@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Floor 5</p>
-    <p>Translation & Innovation Hub (I-Hub), White City Campus, Imperial College London</p>
-    <p>London, W12 7TA</p>
+    <p>IMAGINE group, LIGM</p>
+    <p>École des Ponts ParisTech</p>
+    <p>Champs-sur-Marne, France</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,11 +22,12 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am currently a research master's student in AI and ML at Department of Computing, Imperial College London. I am working on unsupervised anomaly detection in Cardiac MRI under supervision of Dr. [Giacomo Tarroni](https://scholar.google.com/citations?user=6nlDNyoAAAAJ) and Dr. [Chen Qin](https://cq615.github.io/) Previously I obataine my bachelor degree in Data Science and Artificial Intelligence from the Technical University of Madrid in 2025 with my thesis on anomaly detection for Brain MRI under supervision of Dr. [Guillermo Iglesias](https://scholar.google.com/citations?user=om5L0VoAAAAJ). I worked as a research assistant at the ['Ontology Engineering Group (OEG)'](https://oeg.fi.upm.es/) under supervision of Dr. [Elvira Amador](https://scholar.google.com/citations?user=b2ixQ24AAAAJ) where I contributed to a project related to information extraction in scientific text.  
+
+I am currently a pre-doctoral researcher in the [IMAGINE group](https://imagine-lab.enpc.fr/) at École des Ponts ParisTech (ENPC) under supervision of Dr. [Mathieu Aubry](https://imagine.enpc.fr/~aubrym/). Previously, I completed my MRes in AI and Machine Learning at the Department of Computing, Imperial College London, where I worked on unsupervised anomaly detection in cardiac MRI under supervision of Dr. [Giacomo Tarroni](https://scholar.google.com/citations?user=6nlDNyoAAAAJ) and Dr. [Chen Qin](https://cq615.github.io/). Previously I obatained my bachelor degree in Data Science and Artificial Intelligence from the Technical University of Madrid in 2025 with my thesis on anomaly detection for Brain MRI under supervision of Dr. [Guillermo Iglesias](https://scholar.google.com/citations?user=om5L0VoAAAAJ). I worked as a research assistant at the ['Ontology Engineering Group (OEG)'](https://oeg.fi.upm.es/) under supervision of Dr. [Elvira Amador](https://scholar.google.com/citations?user=b2ixQ24AAAAJ) where I contributed to a project related to information extraction in scientific text.
 
 I am currently interested in computer vision, natural language processing and multimodal models. I am looking for PhD or RA opportunities in these areas around Europe and UK, feel free to contact me.
 

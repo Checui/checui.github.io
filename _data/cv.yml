@@ -4,7 +4,7 @@
     - name: Full Name
       value: Che Cui
     - name: Location
-      value: London, UK
+      value: Paris area, France
     - name: Phone
       value: +34 622 576 094
     - name: Email
@@ -19,17 +19,24 @@
 - title: Introduction
   type: list
   contents:
-    - BSc graduate in Data Science and Artificial Intelligence from the Technical University of Madrid, now pursuing an MRes in AI and Machine Learning at Imperial College London.
+    - BSc graduate in Data Science and Artificial Intelligence from the Technical University of Madrid and MRes graduate in AI and Machine Learning from Imperial College London, now a pre-doctoral researcher in the IMAGINE group at École des Ponts ParisTech.
     - Strong foundation in programming, mathematics, and statistics, complemented by hands-on work in both private and public-sector environments.
     - Research interests lie at the intersection of machine learning, computer vision, and natural language processing.
 
 - title: Education
   type: time_table
   contents:
+    - title: Pre-doctoral Researcher
+      institution: IMAGINE group, École des Ponts ParisTech (ENPC)
+      location: Champs-sur-Marne, FR
+      year: October 2026 - Present
+      description:
+        - Pre-doctoral research in computer vision and machine learning at the IMAGINE group (LIGM).
+        - Supervised by Dr. Mathieu Aubry.
     - title: MRes AI and Machine Learning
       institution: Imperial College London
       location: London, UK
-      year: September 2025 - Present
+      year: September 2025 - September 2026
       description:
         - Modules include Generative AI, Research Tutorial, Simulated Research and Development Project Proposal, and Ethics, Fairness, and Explanation in AI.
         - 'Individual research project: "Unsupervised anomaly detection for cardiac MRI", supervised by Dr. Giacomo Tarroni and co-supervised by Dr. Chen Qin.'

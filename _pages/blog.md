@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false # set to true to show the blog tab again
 nav_order: 1
 pagination:
   enabled: true
@@ -21,6 +21,7 @@ pagination:
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
+
 <div class="container featured-posts">
 {% assign is_even = featured_posts.size | modulo: 2 %}
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
@@ -60,6 +61,33 @@ pagination:
 <hr>
 {% endif %}
 
+{% assign papers_explained = site.posts | where_exp: "post", "post.categories contains 'papers-explained'" %}
+{% if papers_explained.size > 0 %}
+
+<div class="container featured-posts">
+<div class="row row-cols-1">
+<div class="col mb-4">
+<a href="{{ '/blog/papers-explained/' | relative_url }}">
+<div class="card hoverable">
+<div class="row g-0">
+<div class="col-md-12">
+<div class="card-body">
+<div class="float-right">
+<i class="fa-solid fa-book-open fa-xs"></i>
+</div>
+<h3 class="card-title text-lowercase">papers explained</h3>
+<p class="card-text">short notes where I unpack papers I have read and found worth understanding deeply — {{ papers_explained.size }} so far.</p>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<hr>
+{% endif %}
+
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
@@ -70,8 +98,6 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}
-
-
 
   <ul class="post-list">
 
